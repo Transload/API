@@ -1,8 +1,8 @@
 <?php
-/*****************************************************/
+/*****************************************************************/
 /*	    	Transload.me API Example		         */
 /*	    Documentation: http://transload.me/?p=api	         */
-/*****************************************************
+/******************************************************************
 	$TransloadAPI -> authorize($_request['username'], $_request['password']);
 	$TransloadAPI -> accountdetails();
 	$TransloadAPI -> supporthost();
@@ -13,7 +13,7 @@
 	$TransloadAPI -> checkcupone($_request['voucher']);
 	$TransloadAPI -> refill($_request['account'], $_request['balance'], $_request['return']$_request['success_url'], $_request['error_url']);
 
-******************************************************/
+******************************************************************/
 
 	include('transload-api.v1.3.php');
 	$_request = array_merge($_GET, $_POST);
